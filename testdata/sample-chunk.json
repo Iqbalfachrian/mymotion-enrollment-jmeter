@@ -1,0 +1,53 @@
+{
+  "enrollment_type": "EVENT_BASED",
+  "batch_name": "Portfolio Synthetic Enrollment",
+  "master_policy_id": "POLICY-DEMO-001",
+  "chunk_sequence": 1,
+  "total_chunks": 1,
+  "is_last_chunk": true,
+  "event": {
+    "name": "Portfolio Synthetic Event",
+    "location": "Synthetic Location",
+    "insurance": {
+      "effective_date": "2030-01-01",
+      "coverage_duration": {
+        "unit": "DAILY",
+        "value": 1
+      }
+    }
+  },
+  "members": [
+    {
+      "member_staging_id": "DEMO-0001",
+      "participant": {
+        "id_type": "KTP",
+        "id_number": "0000000000000001",
+        "full_name": "Synthetic Participant One",
+        "birth_date": "1990-01-01",
+        "gender": "M",
+        "email": "participant0001@example.test",
+        "phone": "080000000001"
+      },
+      "insurance": {
+        "package_code": "DEMO-PACKAGE",
+        "sum_assured": 1000000
+      }
+    },
+    {
+      "member_staging_id": "DEMO-0002",
+      "participant": {
+        "id_type": "KTP",
+        "id_number": "0000000000000002",
+        "full_name": "Synthetic Participant Two",
+        "birth_date": "1991-02-02",
+        "gender": "F",
+        "email": "participant0002@example.test",
+        "phone": "080000000002"
+      },
+      "insurance": {
+        "package_code": "DEMO-PACKAGE",
+        "sum_assured": 1000000
+      }
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+# macOS
+.DS_Store
+
+# Credentials and local configuration
+.env
+user.properties
+secrets.properties
+*.har
+
+# JMeter runtime artifacts
+jmeter.log
+*.jtl
+results-*
+
+# Generated reports and raw test data
+report-*/
+chunks-10000/
+*.xlsx
+
+# Local-only files
+.idea/
+.vscode/settings.json

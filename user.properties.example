@@ -1,0 +1,6 @@
+# Copy this file to user.properties and replace the placeholders locally.
+# Do not commit user.properties.
+
+motion.username=REPLACE_WITH_LOCAL_USERNAME
+motion.password=REPLACE_WITH_LOCAL_PASSWORD
+motion.base_url=https://example.test
