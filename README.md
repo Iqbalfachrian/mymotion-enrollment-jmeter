@@ -35,3 +35,6 @@ The original internal test model used 40 chunks of 250 synthetic participants. T
 - The included JMX uses a placeholder host and is not intended to call an internal environment as-is.
 
 
+<h1>Dashboard</h1>
+<img width="2880" height="1800" alt="image" src="https://github.com/user-attachments/assets/1a87df36-6b37-4992-98a6-b994b40b966a" />
+
